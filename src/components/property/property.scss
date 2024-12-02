@@ -1,0 +1,13 @@
+.property {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+  padding: 8px;
+  gap: 6px;
+  p {
+    color: rgba(31, 41, 68, 1);
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

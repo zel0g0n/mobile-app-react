@@ -1,0 +1,14 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  .container {
+    max-width: 767px;
+    margin: 0 auto;
+    main {
+      padding: 10px ;
+      width: 100%;
+      margin: 0 auto;
+      background-color: rgba(55, 128, 255, 0.1);
+    }
+  }
+}

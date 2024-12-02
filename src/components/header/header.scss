@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  margin-bottom: 10px;
+  &__item {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    &-time {
+      font-size: 15px;
+      font-weight: 600;
+      color:rgba(9, 16, 29, 1);
+    }
+    &-list {
+      display: flex;
+      gap: 10px;
+      color: rgba(9, 16, 29, 1);
+      font-size: 18px;
+    }
+  }
+}

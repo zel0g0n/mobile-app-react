@@ -1,0 +1,29 @@
+.user__contacts {
+  width: 350px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  .prop-block {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(31, 41, 68, 1);
+      margin-bottom: 6px;
+    }
+    li {
+      background: rgba(55, 128, 255, 0.1);
+      padding: 10px 20px;
+      & p {
+        font-weight: 400;
+        font-size: 14px;
+        
+      }
+    }
+  }
+}
