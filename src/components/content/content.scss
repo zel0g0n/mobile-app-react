@@ -1,19 +1,26 @@
 .content {
   display: grid;
   width: 100%;
-  grid-template-columns: 213px 132px;
   justify-content: center;
-  gap: 3%;
+  gap: 10px;
   margin: 0 auto;
   img {
     border-radius: 8px;
+    
   }
+  
   & img:nth-child(1) {
+    width: 200px;
+    height: 220px;
     grid-row-start: 1;
     grid-row-end: 3;
   }
   & img:nth-child(3) {
     grid-row-start: 2;
     grid-column-end: 3;
-  } 
+  }
+  & img:nth-child(2) , & img:nth-child(3) {
+    width: 110px;
+    width: 110px;
+  }
 }

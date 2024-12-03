@@ -1,14 +1,16 @@
 .app {
   width: 100%;
-  min-height: 100vh;
   .container {
+    height: max-content;
     max-width: 767px;
     margin: 0 auto;
     main {
-      padding: 10px ;
+      height: 100%;
       width: 100%;
       margin: 0 auto;
       background-color: rgba(55, 128, 255, 0.1);
+      padding: 10px 0;
+
     }
   }
 }
